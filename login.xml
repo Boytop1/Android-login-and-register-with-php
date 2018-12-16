@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+    android:background="@drawable/aaaaaa"
+
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:src="@drawable/chatlogo"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名："
+        android:textSize="30dp"
+        android:id="@+id/textView1" />
+    <EditText
+        android:name="android.support.v4.app.ListFragment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:background="#ffa8edff"
+        android:layout_weight="0.18" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码："
+        android:textSize="30dp"
+        android:id="@+id/textView2" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:lines="2"
+        android:id="@+id/password"
+        android:background="#ffffccf6"
+        android:elegantTextHeight="true"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="登录"
+        android:textSize="30dp"
+        android:background="#fffcec82"
+        android:id="@+id/denglu"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有账号？"
+        android:textColor="#ffff120f"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fffcd890"
+        android:text="注册"
+        android:textSize="30dp"
+        android:id="@+id/zhuce"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
